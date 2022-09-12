@@ -1,0 +1,237 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.2",
+    "types": [],
+    "structs": [
+        {
+            "name": "addtowl",
+            "base": "",
+            "fields": [
+                {
+                    "name": "authorized_account",
+                    "type": "name"
+                },
+                {
+                    "name": "pool_id",
+                    "type": "uint32"
+                },
+                {
+                    "name": "accounts_to_add",
+                    "type": "name[]"
+                }
+            ]
+        },
+        {
+            "name": "claimers",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "last_claimed_time",
+                    "type": "uint32"
+                },
+                {
+                    "name": "total_claimed",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "claimpool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "claimer",
+                    "type": "name"
+                },
+                {
+                    "name": "pool_id",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "config_s",
+            "base": "",
+            "fields": [
+                {
+                    "name": "version",
+                    "type": "string"
+                },
+                {
+                    "name": "pool_counter",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "createpool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "claim_cooldown",
+                    "type": "uint32"
+                },
+                {
+                    "name": "tokens_to_claim",
+                    "type": "asset"
+                },
+                {
+                    "name": "token_contract",
+                    "type": "name"
+                },
+                {
+                    "name": "token_symbol_code",
+                    "type": "symbol_code"
+                },
+                {
+                    "name": "ipfs_image",
+                    "type": "string"
+                },
+                {
+                    "name": "pool_owner",
+                    "type": "name"
+                },
+                {
+                    "name": "whitelist",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "deletepool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "authorized_account",
+                    "type": "name"
+                },
+                {
+                    "name": "pool_id",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "init",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "pools_s",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint32"
+                },
+                {
+                    "name": "token_remains",
+                    "type": "asset"
+                },
+                {
+                    "name": "claim_cooldown",
+                    "type": "uint32"
+                },
+                {
+                    "name": "token_contract",
+                    "type": "name"
+                },
+                {
+                    "name": "token_symbol",
+                    "type": "symbol"
+                },
+                {
+                    "name": "tokens_to_claim",
+                    "type": "asset"
+                },
+                {
+                    "name": "pool_owner",
+                    "type": "name"
+                },
+                {
+                    "name": "ipfs_image",
+                    "type": "string"
+                },
+                {
+                    "name": "whitelist",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "whitelists",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "addtowl",
+            "type": "addtowl",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "claimpool",
+            "type": "claimpool",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "createpool",
+            "type": "createpool",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "deletepool",
+            "type": "deletepool",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "init",
+            "type": "init",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "claimers",
+            "type": "claimers",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "config",
+            "type": "config_s",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "pools",
+            "type": "pools_s",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "whitelists",
+            "type": "whitelists",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "kv_tables": {},
+    "ricardian_clauses": [],
+    "variants": [],
+    "action_results": []
+}

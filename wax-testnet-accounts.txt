@@ -1,0 +1,20 @@
+{"msg": "succeeded", 
+"keys": {"active_key": {"public": "EOS7reRXFBR7JLVBAcjYCYHmLQT15FUxwU825A9CEq359jjrwTQS3", 
+"private": "5KL8Y3q8YpcKrtMMUHEVJXUJeGG2aaw96dYj5d1fz5x3bdP8Bpb"}, 
+"owner_key": {"public": "EOS8Z58w5ivUfMWmXEXcUxv2wipqwLsXK19LrqjrtrJCCxYT6Ukuc",
+ "private": "5JALiMcAVf7BG4ZEMpk2ioBDTvanbuC4pXdG4SaALN9d4RgpmGb"}},
+ "account": "tokensfaucet"}
+
+{"msg": "succeeded", "keys": 
+{"active_key": {"public": "EOS6T28ohW6Z8uTCKjpq4d5qZFNuV8QFczuZUAbFGScBDDerqf6tM", 
+"private": "5KdG9is1UzGr2edC8WLn9Nh83cqaL2P8S1TknBDV6XWZkJGxT1U"}, 
+"owner_key": {"public": "EOS4vzvvGbZssHjJR2G8u41VSvLBGtazHTZkCmVapQuEsnt7a6Dy2", 
+"private": "5Je4hBeVGSGXBALa9baVaNxeFAVALViviVgUoodsFsoA5gEWKKt"}}, "account": "testtoken321"}
+
+
+{"msg": "succeeded", 
+"keys": {"active_key": {"public": "EOS6Y3UGTeehKQ5Egm3x6E2E1kMG1aTEyJVUwTUafgbeW68pVVcdU",
+ "private": "5JK9tTrc9kVAHHpwubdrL21SkvXVfF7hVcFMQ4QwiWYC5jSMMqV"}, 
+"owner_key": {"public": "EOS7XfbX1NahBWqJHGYw3yAtXP8ea2qzJCe8eoQdGEqB7NkZvEBc6",
+ "private": "5JhuxiS4VnXdzewjquaDPRBnRbzvnTYfqUUe172Rk5DCbfaZBEo"}}, 
+"account": "testtoken122"}
