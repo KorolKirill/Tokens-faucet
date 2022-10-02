@@ -102,7 +102,7 @@ namespace eosio
             require_auth(authorized_account);
             auto poolsTableItr = pools.require_find(pool_id, "Pool is not found");
             check(poolsTableItr->pool_owner == authorized_account, "You're not the owner.");
-            whitelistsT whitelistsTable(_self, _self.value);
+            whitelistsT whitelistsTable(_self, pool_id);
             for (int i = 0; i < accounts_to_add.size(); i++)
             {
                 whitelistsTable.emplace(authorized_account, [&](auto &entry)
